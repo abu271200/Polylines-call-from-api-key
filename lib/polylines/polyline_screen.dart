@@ -260,7 +260,7 @@ print("OUT PUT IN GETPOLYPOINTS ${result.errorMessage}");
           polylines.add(
             Polyline(
               polylineId: PolylineId('polyLine'),
-              width: 10,
+              width: 08,
               color: Color(0xFF08A5CB), 
               points: polylineCoordinates, 
             )
@@ -270,7 +270,7 @@ print("OUT PUT IN GETPOLYPOINTS ${result.errorMessage}");
         print("STATUS NOT OK IN POLYLINE METHOD");
       }
     }catch(error){
-print("ERROR OCCURED IN POLYLINE METHOD----${error}");
+ print("ERROR OCCURED IN POLYLINE METHOD----${error}");
     }
    
   }
